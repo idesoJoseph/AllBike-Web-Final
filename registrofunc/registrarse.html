@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="shortcut icon" href="img/allbikefavicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="fondo.css">
+</head>
+
+<body>
+	<h3><span colspan="2" style="padding:37%;">Si ya se encuentra registrado: <a href="ingresar.html">Incie Sesión</a></span></h3>
+	<form action="regist.php" method="GET">
+		<table align="center">
+			<tr>
+				<th colspan="2" style="padding:20px;">REGISTRARSE</th>
+			</tr>
+			<tr>
+				<td>Nombre</td><td><input type="text" name="rnombre"></td>
+			</tr>
+			<tr>
+				<td>Correo electrónico</td><td><input type="email" name="rcorreo"></td>
+			</tr>
+			<tr>
+				<td>Sexo</td><td>Masculino<input type="radio" name="rsexo" value="Masculino">Femenino<input type="radio" name="rsexo" value="Femenino"></td>
+			</tr>
+			<tr>
+				<td>Contraseña</td><td><input type="password" name="rcontra"></td>
+			</tr>
+			<tr>
+				<td>Confirmar contraseña</td><td><input type="password" name="rconfirmcontra"></td>
+			</tr>
+			<tr>
+				<td></td><td style="padding:20px;text-align:right;"><input type="reset" value="BORRAR">&nbsp <input type="submit" value="ENVIAR"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
